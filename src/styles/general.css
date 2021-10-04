@@ -1,0 +1,15 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.w-70 {
+  width: 80%;
+  margin: 90px auto;
+}

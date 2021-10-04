@@ -1,0 +1,54 @@
+.second-r{
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.second-r:hover{
+    background-color: rgb(217, 238, 238);
+}
+.productheading2{
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: normal;
+    
+    color:black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.onboarding-heading{
+    color: cornsilk;
+    font-weight: 700;
+}
+.onboarding-para{
+    color: white;
+    font-weight: 300;
+}
+.pro-card{
+    margin: 30px;
+    border: none;
+    
+}
+.visual-dir{
+    height: 4vh;
+}
+.perks-heading{
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.hiring-team{
+    text-align: center;
+    margin-top: 6rem;
+}
+.partoutstory{
+    text-align: center;
+    margin-top: 20rem;
+    background-image: linear-gradient(white 40%, rgb(180, 226, 230));
+    height: 70vh;
+}
+.div-last-left{
+    padding: 0px;
+}

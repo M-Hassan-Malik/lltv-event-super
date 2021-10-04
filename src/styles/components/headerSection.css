@@ -1,0 +1,106 @@
+.header-sec {
+  position: relative;
+  /* height: 100vh; */
+  /* align-items: center; */
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.header-sec .header-title h1 {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  /* z-index: 7; */
+}
+.header-sec .header-title p {
+  text-align: center;
+  font-size: 1.1222rem;
+  width: 40%;
+
+  margin: 20px auto;
+}
+
+.header-sec .video-header-text {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1rem; */
+  font-family: "Gilroy", sans-serif;
+}
+.header-sec .video-header-text .video-header-text-heading {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.header-sec .video-header-text .progress {
+  width: 6rem;
+  display: flex;
+  margin: 0 auto;
+  margin: 5px auto;
+}
+
+.header-sec .video-header-text span:hover {
+  color: var(--primary-color) !important;
+  cursor: pointer;
+}
+.header-sec .video-header-text svg {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-left: 0.48rem;
+}
+.header-sec .glow-right {
+  height: 60rem;
+  width: 5rem;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* left: calc(50% + 32rem); */
+  background-color: var(--primary-color);
+  filter: blur(6rem);
+  border-radius: 50%;
+}
+.header-sec .video-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-sec .video-section .video {
+  height: 400px;
+  margin: 20px 0;
+}
+@media (max-width: 800px) {
+  .header-sec {
+    margin-top: 4rem;
+  }
+  .header-sec .header-title h1 {
+    width: 100%;
+  }
+  .header-sec .header-title p {
+    width: 90%;
+  }
+}
+@media (max-width: 450px) {
+  .header-sec .glow-right {
+    display: none;
+  }
+  .header-sec .video-header-text {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+  }
+  .header-sec .video-header-text .video-header-text-heading {
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-sec .header-title p {
+    width: 90%;
+  }
+}

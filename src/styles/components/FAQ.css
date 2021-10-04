@@ -1,0 +1,45 @@
+.FAQmain .FAQmain1 {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 100px;
+}
+
+.FAQmain hr{
+    width: 70%;
+}
+
+.FAQmain .row1, .row2, .row3{
+    margin-left: 50px;
+    margin-right: 50px; 
+    color: black;
+}
+
+.FAQmain h2{
+    font-weight: bolder; 
+    color: black;
+
+}
+.FAQmain .row1 .col1{
+    padding: 50px; 
+    padding-top: 20px;
+}
+.FAQmain .row1 .col2{
+    padding: 50px; 
+    padding-top: 20px;
+}
+.FAQmain .row2 .col1{
+    padding: 50px; 
+    padding-top: 20px;
+}
+.FAQmain .row2 .col2{
+    padding: 50px; 
+    padding-top: 20px;
+}
+.FAQmain .row3 .col1{
+    padding: 50px; 
+    padding-top: 20px;
+}
+.FAQmain .row3 .col2{
+    padding: 50px; 
+    padding-top: 20px;
+}

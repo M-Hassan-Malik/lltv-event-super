@@ -1,0 +1,49 @@
+.main-blog {
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-left: 18%;
+  margin-top: 1%;
+}
+.main-blog .rdw-editor-toolbar {
+  background-color: #1d8cf8;
+  border: none;
+  border-radius: 12px;
+}
+.wrapper-class {
+  padding-top: 1rem;
+  max-width: 70%;
+}
+.main-blog .editor-class {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #5d6a8a;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+.main-blog .title {
+  max-width: 70%;
+}
+
+#post-blog-btn {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border-width: 0px;
+  font-size: 1.023rem;
+  text-align: center;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+#post-blog-btn:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+.subtitle {
+  background-color: black;
+  max-width: 70%;
+}

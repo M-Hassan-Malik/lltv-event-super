@@ -1,0 +1,22 @@
+.see {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  flex-direction: column;
+}
+.see h1 {
+  width: 40%;
+  text-align: center;
+}
+
+.see .see-video {
+  /* margin: 0 5rem; */
+  width: 85%;
+}
+
+@media (max-width: 770px) {
+  .see h1 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,107 @@
+.green-card-main {
+  width: 100%;
+  min-height: 260px;
+  background-color: var(--primary-color);
+  border-radius: 0.3125rem;
+  position: relative;
+  color: white;
+  margin: 12em 0;
+}
+/* #32E399 */
+
+.green-card-main .circle-btn-active {
+  position: relative;
+  padding-left: 1.2em;
+  /* color: #9e9e9e; */
+  text-align: left;
+  border: none;
+  margin-right: 25px;
+  padding: 0;
+}
+.green-card-main .circle-btn-active:before {
+  background: #32e399;
+  position: absolute;
+  z-index: 2;
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: -5px 0.5rem 0 0;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+.green-card-main .circle-btn-active:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.green-card-main .image {
+  position: absolute;
+  right: 10%;
+  top: -30%;
+}
+.green-card-main .content div {
+  display: flex;
+  align-items: center;
+}
+.green-card-main .content div p {
+  margin-bottom: 0;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.green-card-main h5 {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  margin: 15px 0;
+}
+.green-card-main .content {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+.green-card-main .content button:last-child {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 0.312rem;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+.green-card-main .content button:last-child svg {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.green-card-main .content button:last-child:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+/* ------------------------------------------------------ */
+
+@media (max-width: 1030px) {
+  .green-card-main .image {
+    right: 1%;
+  }
+}
+
+@media (max-width: 770px) {
+  .green-card-main .image {
+    display: none;
+  }
+}

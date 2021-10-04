@@ -1,0 +1,73 @@
+.last-content-main{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.div-last-left{
+    
+    float: left;
+    padding: 0px;
+}
+
+.list_one{
+    list-style-type: decimal;
+    font-size: 1.2rem;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-weight: 400;
+    display: list-item;
+    margin: .875rem 0 0;
+    padding-left: 0rem;
+}
+.list_left{
+    display: block;
+    
+    
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.second-Last-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+}
+.scnd-last-left{
+    float: left;
+    
+}
+.scnd-last-right{
+    float: right;
+    
+}
+.vv{
+    margin-top: 40rem;
+    padding-top: 13rem;
+    text-align: center;
+}
+.scnd-last-left{
+    float: left;
+}
+.scnd-last-right{
+    float: right;
+
+}
+.rightpara-side{
+    font-size: 25px;
+    margin-top: 2rem;
+    font-family: "Times New Roma";
+}
+.rightpara-side2{
+    font-size: 2rem;
+    font-size: 25px;
+    margin-top: 2rem;
+    font-family: "Times New Roma";
+
+}
+.rightpara-side33{
+    font-size: 25px;
+    
+    font-family: "Times New Roma";
+    margin-top: 3rem;
+}

@@ -1,0 +1,98 @@
+.ant-btn-primary {
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  font-family: "Gilroy", sans-serif;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  padding: 1em 1.4em;
+  letter-spacing: 0.05em;
+}
+.ant-btn-primary svg {
+  font-size: 1.4em;
+  margin-left: 10px;
+  display: flex;
+}
+.ant-btn-link {
+  color: black;
+  /* border-color: #yourColor; */
+}
+
+.ant-btn-link:hover {
+  color: #00af66;
+  /* border-color: #yourColor; */
+}
+
+.ant-card-meta-title {
+  overflow: visible;
+  white-space: normal;
+}
+
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 4.8rem;
+  /* margin-bottom: 0; */
+  line-height: 70px;
+}
+h5.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 1.5em;
+  line-height: 70px;
+}
+h4.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 2.2em;
+  line-height: 70px;
+}
+/* p,
+span {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2em !important;
+} */
+.ant-progress-success-bg,
+.ant-progress-bg {
+  background-color: #32e399;
+  height: 3px !important;
+}
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 4.8em;
+  /* margin-bottom: 0; */
+  line-height: 70px;
+}
+h5.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 1.5em;
+  line-height: 70px;
+}
+h4.ant-typography {
+  font-family: "Gilroy", sans-serif;
+  font-size: 2.2em;
+  /* line-height: 40px; */
+}
+h3.ant-typography {
+  /* font-family: "Gilroy", sans-serif;
+  font-size: 2.2em; */
+  line-height: 66px;
+}
+.ant-tabs-ink-bar {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  h1.ant-typography {
+    font-size: 2.6em;
+    /* width: 100%; */
+    line-height: 50px;
+    /* margin: 0 2rem; */
+  }
+}

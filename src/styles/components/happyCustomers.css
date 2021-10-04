@@ -1,0 +1,8 @@
+.customers {
+  margin-top: 10rem;
+}
+.customers h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,69 @@
+.analytics {
+  background-color: #313131;
+  height: 150vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.analytics p,
+.analytics h4 {
+  color: #fff;
+  margin-bottom: 0;
+}
+.analytics p {
+  width: 40%;
+  text-align: center;
+  font-size: 1.19rem;
+}
+.analytics .data-and-analytics {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.analytics .data-and-analytics .analytics-container {
+  margin: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.analytics .data-and-analytics .analytics-container .line-and-text {
+  margin: 20px 0;
+  border-top: 1px solid #fff;
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+.analytics .data-and-analytics .analytics-container .line-and-text p {
+  /* margin: 5px 0; */
+  /* display: flex; */
+  font-weight: bolder;
+  font-size: 0.9rem;
+  margin-left: auto;
+  width: 100% !important;
+  text-align: right;
+}
+.analytics .data-and-analytics .analytics-container img {
+  height: 6rem;
+  width: 20rem;
+  /* height: 200px;
+  width: 200px; */
+}
+
+@media (max-width: 800px) {
+  .analytics p {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .analytics p {
+    width: 80%;
+  }
+}

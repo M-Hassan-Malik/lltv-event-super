@@ -1,0 +1,80 @@
+.carousel {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.carousel h1 {
+  width: 40%;
+  text-align: center;
+}
+
+.carousel p {
+  /* padding: 40px; */
+  font-size: 21px;
+  font-weight: 400;
+}
+.carousel .react-multiple-carousel__arrow--left {
+  left: 15%;
+  top: 30% !important;
+  background-color: white;
+}
+/* .react-multiple-carousel__arrow */
+.carousel .react-multiple-carousel__arrow {
+  min-width: 50px;
+  min-height: 50px;
+}
+.carousel .react-multiple-carousel__arrow::before {
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+}
+
+.react-multiple-carousel__arrow::before:hover {
+  color: var(--primary-color);
+}
+
+.carousel
+  .react-multiple-carousel__arrow:hover
+  .react-multiple-carousel__arrow::before {
+  color: var(--primary-color);
+}
+
+.carousel .react-multiple-carousel__arrow--right {
+  right: 15%;
+  top: 30%;
+  background-color: white;
+}
+
+.carousel .video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
+}
+.carousel .video-info .profile {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 70px;
+  height: 70px;
+}
+
+.carousel .video-info .desc {
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.carousel .video-info .name {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+.carousel .video-info .designation {
+  font-size: 17px;
+}
+
+.carousel .ant-divider-horizontal {
+  margin-top: 100px;
+}

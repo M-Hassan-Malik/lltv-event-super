@@ -1,0 +1,45 @@
+.add-new-form {
+  width: 60vw;
+}
+
+.add-new-form .react-date-picker__wrapper {
+  border-radius: 5px;
+  width: 18vw;
+  height: 35px;
+  border: 1px solid #2b3553;
+}
+.add-new-form #agree{
+  margin-left: 20px;
+}
+.add-new-form #back-btn {
+  margin-bottom: 20px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.add-new-form #back-btn:hover {
+  background-color: black;
+}
+
+.add-new-form #btn-save {
+  margin-top: 15px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border-width: 0px;
+  font-size: 1.023rem;
+  text-align: center;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.add-new-form #btn-save:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}

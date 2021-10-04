@@ -1,0 +1,9 @@
+.settings-main {
+  margin-left: 18%;
+  margin-top: 1%;
+  width: 40%;
+}
+.settings-main .form-group-label #radio {
+  display: flex;
+  flex-direction: column;
+}

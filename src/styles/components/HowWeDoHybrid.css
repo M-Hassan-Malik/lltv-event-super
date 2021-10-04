@@ -1,0 +1,29 @@
+.howMain {
+  width: 100%;
+  padding: 13rem 0 13rem 0;
+}
+.howWeDo {
+  width: 80%;
+  margin: 0 auto;
+}
+.howWeDo h1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.howMain img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .howWeDo h1 {
+    width: 100%;
+  }
+  .howMain {
+    padding: 0;
+    padding-top: 4rem;
+  }
+}

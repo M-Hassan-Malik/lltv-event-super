@@ -1,0 +1,68 @@
+.main-content-row .row{
+    width: 100%;
+    justify-items: center;
+    margin-top: 5rem;
+    height: 100%;
+}
+.left-side{
+    
+    float: left;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+    margin-left: auto;
+    height: auto;
+    padding-top: 2rem;
+}
+.right-side{
+    
+    background-color: rgb(248, 245, 245);
+    float: right;
+    text-align: center;
+}
+.heaidngone{
+    font-size: 72px;
+    font-size: 4.5rem;
+    line-height: .97222;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 700;
+
+}
+.left-side-paragraph{
+    
+    font-size: 1.0625rem;
+    line-height: 1.64118rem;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-weight: 500;
+    width: 21rem;
+    padding-top: 2rem;
+    
+    
+}
+.button-container{
+    text-align: center;  
+    padding-top: 0.5rem ;
+    
+    
+
+}
+
+.left-buttton{
+background-color: #00af66;;
+
+    display: flex;
+    color: white;
+    border-radius: 4px;
+    border-width: 0px;
+    border-color: #00af66;;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: "Gilroy",sans-serif;
+    font-style: normal;
+    padding: 10px 60px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.righth-side-img{
+    height: auto;
+    width: 90%;
+}

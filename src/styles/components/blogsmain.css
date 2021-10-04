@@ -1,0 +1,106 @@
+.first-main-container{
+    text-align: center;
+    height: auto;
+    background-image: linear-gradient(rgb(176, 223, 212) 5%, white 80%);
+    padding-top: 10rem;
+    
+}
+.resource-headg{
+    font-size: 72px;
+    font-size: 4.9rem;
+    line-height: .97222;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 780;
+    margin: 3rem 0 0 0;
+    color: rgb(0, 0, 0);
+}
+.button-box{
+    margin-top: 4rem;
+}
+.btn-blog-first{
+   
+    text-align: center;
+    color: #828282;
+    font-size: 1.255rem;
+    letter-spacing: .02em;
+    line-height: 1.05556;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    padding: .6667em .956em;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.btn-blog-first:hover{
+    border: .0625rem solid #00af66;
+    background-color: #00af66;
+}
+.textblog-frst{
+    margin-top: 6rem;
+}
+.blogs-card-div{
+    margin-top: 7.234rem;
+    padding:2rem;
+    
+
+
+}
+.blog-crd-main:hover{
+    border-color: white;
+    border-bottom: 8px solid green ;
+    background-color: rgb(243, 243, 243);
+}
+.crd-tiitle{
+    font-size: 20px;
+    line-height: 1.19048;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 802;
+    color:inherit rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    
+    
+}
+.card-body-blg{
+    height: 30vh;
+}
+.crd-text{
+    font-size: 1.1rem;
+    line-height: 1.46667;
+    text-align: left;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "IBM Plex Sans",sans-serif;
+}
+.crd-blg-btn:hover{
+       background-color: rgb(199, 196, 196);
+}
+.hr-lines{
+    width: 80%;
+}
+.after-line-btn{
+    float: right;
+    margin-right: 12rem;
+}
+.btn-blog-firsts{
+    border:transparent;
+    background-color: transparent;
+    color: black;
+    font-family: "Gilroy",sans-serif;
+    font-weight: bolder;
+    
+    font-size: 20px;
+    letter-spacing: .03em;
+}
+.btn-blog-firsts:hover{
+    background-color: transparent;
+    color: #00af66;
+    
+
+    
+}

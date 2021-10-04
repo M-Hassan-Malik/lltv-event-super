@@ -1,0 +1,227 @@
+.headerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.925);
+  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 33;
+  /* margin-bottom: 6rem; */
+}
+.headerMain li:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.headerSmall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.25em;
+  align-items: center;
+}
+.headerList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: large;
+  font-weight: bolder;
+  color: #949494;
+}
+.headerList li {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.headerMain .signIn li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: large;
+  font-weight: bolder;
+  color: #949494;
+}
+.signIn Button:hover {
+  color: black;
+}
+.contact Button {
+  background-color: #00af66;
+  font-size: large;
+  font-weight: bolder;
+  font-family: "Gilroy";
+  /* padding: 10px 20px 35px 20px; */
+  border-radius: 0.312rem;
+  border: 0.0625rem solid #00af66;
+  display: flex;
+  align-items: center;
+  /* height: 40px; */
+  /* width: 190px; */
+  color: white;
+}
+
+.headerSmall li {
+  font-size: large;
+  font-weight: normal;
+  color: #949494;
+  list-style: none;
+  line-height: 2.25em;
+}
+.ant-btn-primary {
+  font-family: "Gilroy";
+}
+
+.ant-btn-primary:hover {
+  background: #0ac275;
+  border-color: #7c8682;
+}
+.ant-btn-link {
+  color: #949494;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Gilroy";
+  background-color: transparent;
+  border: 2px transparent;
+}
+.ant-btn-link:hover {
+  color: black;
+}
+
+#first {
+  flex: 1;
+  margin-left: 5em;
+}
+#second {
+  flex: 5;
+  margin-bottom: 0px;
+}
+
+#fourth {
+  flex: 1;
+}
+#fifth {
+  flex: 1;
+  margin-right: 5em;
+}
+.drawer li {
+  font-weight: 400;
+  font-family: "IBM Plex Sans";
+  font-size: 17px;
+}
+.drawer p {
+  font-size: large;
+  font-weight: 700;
+  font-family: "Gilroy";
+  color: black;
+  line-height: 22px;
+}
+.headerSmall .buttons {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.dropdownLi {
+  padding: 20px;
+}
+.dropdownLi .download {
+  color: #8b8b8b;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.dropdownLi .download:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.dropdownLi .download svg {
+  color: var(--primary-color);
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.dropdownLi li,
+.dropdownLi li a {
+  font-size: large;
+  color: #8b8b8b;
+  font-family: "Gilroy", sans-serif;
+  margin: 5px 0;
+}
+.dropdownLi li a:hover {
+  background-color: transparent;
+  color: black;
+}
+.dropdownLi li:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.navbarLi li:hover,
+.navbarLi li a:hover {
+  color: black;
+}
+
+.dropdownLi .ant-divider {
+  height: 140px;
+}
+.dropdownLi .circle-btn-active {
+  position: relative;
+  padding-left: 0;
+  text-align: left;
+  border: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.dropdownLi .circle-btn-active:before {
+  background: #32e399;
+  position: absolute;
+  z-index: 2;
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+.dropdownLi .circle-btn-active:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.drawer .download {
+  font-family: "Gilroy";
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.drawer .download:hover {
+  color: #00af66;
+}
+
+.drawer .signIn Button {
+  font-size: 18px;
+  color: #949494;
+  font-weight: 400;
+  font-family: "IBM Plex Sans";
+  margin-top: 20px;
+}
+
+#last .ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  display: none;
+
+}

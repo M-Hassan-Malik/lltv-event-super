@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+/* @import url("../../node_modules/react-modal-video/scss/modal-video.scss"); */
+
+@import "./antd.css";
+@import "./general.css";
+
+/* components */
+
+@import "./components/attendee.css";
+@import "./components/pricingcard.css";
+@import "./components/subscribe.css";
+@import "./components/headerSection.css";
+@import "./components/carousel.css";
+@import "./components/successStory.css";
+@import "./components/greenCard.css";
+@import "./components/resources.css";
+@import "./components/modernFeatures.css";
+@import "./components/Navbar.css";
+
+@import "./pages/hybrid.css";
+@import "./pages/virtual.css";
+@import "./components/trusted.css";
+@import "./components/dataAnalytics.css";
+@import "./components/see.css";
+@import "./components/happyCustomers.css";
+@import "./components/Video.css";
+@import "./pages/pricing.css";
+@import "./components/FAQ.css";

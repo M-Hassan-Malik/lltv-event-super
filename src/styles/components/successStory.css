@@ -1,0 +1,43 @@
+.success-card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.success-card-main .ant-divider {
+  margin: 5em 0;
+}
+.success-card-main .desc {
+  font-size: 23px;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.success-card-main .profile {
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.success-card-main .name {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.success-card-main .logo {
+  height: 30px;
+  margin: 20px 0;
+}
+.success-card-main .last {
+  margin-bottom: 20px !important;
+}
+.success-card-main .link {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 15px !important;
+}
+.success-card-main .link svg {
+  margin-left: 10px;
+  color: var(--primary-color);
+  font-size: 20px;
+}

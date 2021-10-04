@@ -1,0 +1,81 @@
+.filter-pricing {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  margin: 20;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  margin-bottom: -20px;
+}
+.filter-pricing p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.filter-pricing .btn-container {
+  border-radius: 30px;
+  border: 0.5px solid rgba(128, 128, 128, 0.438);
+  padding: 4px 20px;
+}
+.filter-pricing button {
+  border: none;
+  font-size: 1.2em;
+  margin: 0 20px;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.filter-pricing .gray-btn {
+  background-color: rgba(128, 128, 128, 0.555);
+
+  /* width: 80px; */
+  border-radius: 20px;
+}
+.filter-pricing .black-btn {
+  background-color: black;
+  color: #fff;
+  width: 80px;
+  border-radius: 20px;
+}
+.filter-pricing .switch-currency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 5px 0;
+}
+.filter-pricing .switch-currency span {
+  font-size: 1.2em;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.filter-pricing .currency-switch {
+  border: 0.5px solid rgba(128, 128, 128, 0.438);
+  /* padding: 4px 20px; */
+  border-radius: 30px;
+  display: flex;
+  padding: 2px;
+}
+.filter-pricing .switch-currency button {
+  margin: 0;
+  display: flex;
+  padding: 0 10px;
+}
+.pricingMain .mainText {
+  font-size: large;
+}
+
+@media (max-width: 500px) {
+  .filter-pricing .btn-container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 0;
+  }
+}

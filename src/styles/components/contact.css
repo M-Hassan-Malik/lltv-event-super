@@ -1,0 +1,78 @@
+.contact-main-div{
+    width: 100%;
+    
+ }
+ 
+ .contact-left-div{
+    float: left;
+    text-align: center;
+    margin-top: 10rem;
+    
+    height: 168vh;
+ }
+ .schedule-hding{
+    font-size: 4.5rem;
+    
+    line-height: .97222;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+ }
+ .schdule-para{
+    font-size: 1.25rem;
+     line-height: 1.44118;
+     font-family: "IBM Plex Sans",sans-serif;
+     font-weight: 400;
+     text-align: center;
+ }
+ 
+ .schedule-imgs1{
+    border-radius: 50%;
+    width: 20%;
+    height: 20vh;
+    margin-right: -4rem;
+    margin-top: 6rem;
+ 
+ }
+ .schedule-imgs2{
+    border-radius: 50%;
+    width: 20%;
+    height: 20vh;
+    z-index: 4;
+ }
+ .schedule-imgs3{
+    border-radius: 50%;
+    width: 20%;
+    height: 20vh;
+    margin-left: -2rem;
+    margin-top: 6rem;
+    z-index: -1;
+ }
+ .contact-right-div{
+    float: right;
+    margin-top: 5rem;
+    height: auto;
+    background-color: white;
+    margin-bottom: 5rem;
+    
+ }
+ .EmailContatcinput{
+    width: 50%;
+    margin-top: 1rem;
+ 
+ }
+ .dropdown-country{
+    margin-top: 3rem;
+ }
+ .phone-input-div{
+    width: 100%;
+    
+ }
+ .phone-label{
+    text-align: center;
+    margin-left: 3.3rem;
+ }
+ .form-control:focus {
+    border-color: #00af66;
+    box-shadow: none;
+ } 

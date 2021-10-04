@@ -1,0 +1,27 @@
+#management-table-div .card-body {
+  overflow: hidden;
+  height: 420px;
+}
+#management-table-div .card-body:hover {
+  overflow: scroll;
+}
+
+#management-table-div ::-webkit-scrollbar {
+  width: 10px;
+}
+#management-table-div ::-webkit-scrollbar-track {
+  display: none;
+}
+#management-table-div ::-webkit-scrollbar-thumb {
+  background: #344675;
+  border-radius: 10px;
+}
+#management-table-div ::-webkit-scrollbar-thumb:hover {
+  background: grey;
+  width: 20px;
+}
+@media (max-width: 425px) {
+  #management-table-div ::-webkit-scrollbar {
+    display: none;
+  }
+}

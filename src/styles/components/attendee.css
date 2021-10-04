@@ -1,0 +1,163 @@
+.main-attendee {
+  background-color: var(--secondary-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.white-bg {
+  background-color: transparent;
+}
+.attendee {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.attendee p {
+  font-size: 1.3em !important;
+  font-weight: 450;
+}
+.attendee button {
+  margin: 0 auto;
+}
+
+.main-attendee .two-images-section1 {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.main-attendee .two-images-section1 img {
+  height: 80px;
+}
+.main-attendee .two-images-section1 img:nth-child(2) {
+  position: absolute;
+  /* top: 30px; */
+  margin-left: -30px;
+  margin-top: -30px;
+  top: 70px;
+}
+
+.main-attendee .two-images-section2 {
+  position: absolute;
+  left: 140px;
+  bottom: 180px;
+}
+.main-attendee .two-images-section2 img {
+  height: 80px;
+}
+.main-attendee .two-images-section2 img:nth-child(2) {
+  position: absolute;
+  /* top: 30px; */
+  margin-left: -30px;
+  margin-top: -30px;
+  top: 70px;
+}
+.main-attendee .two-images-section3 {
+  position: absolute;
+  right: 200px;
+  bottom: 50px;
+}
+.main-attendee .two-images-section3 img {
+  height: 80px;
+}
+.main-attendee .two-images-section3 img:nth-child(2) {
+  position: absolute;
+  /* top: 30px; */
+  margin-left: -25px;
+  margin-top: -30px;
+  top: 75px;
+  right: 49px;
+  /* bottom: 20px; */
+}
+.shadow-bottomA {
+  height: 20vh;
+  width: 30rem;
+
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 206, 120, 0.66);
+  filter: blur(6rem);
+  border-radius: 50%;
+  z-index: -1;
+}
+@media (max-width: 1040px) {
+  .main-attendee {
+    background-color: #fff;
+  }
+  .attendee {
+    width: 65%;
+  }
+  .attendee button {
+    z-index: 1;
+  }
+
+  .shadow-bottom {
+    height: 20vh;
+    width: 30rem;
+
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 206, 120, 0.66);
+    filter: blur(6rem);
+    border-radius: 50%;
+  }
+
+  .main-attendee .two-images-section1 {
+    display: none;
+  }
+  .main-attendee .two-images-section2 {
+    display: none;
+  }
+  .main-attendee .two-images-section3 {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .attendee {
+    width: 95%;
+    margin: 0 50px;
+  }
+  .attendee button {
+    font-size: 1.2em !important;
+    padding: 1em 1.1em;
+    /* margin: 0 1.1em; */
+  }
+  .attendee p {
+    margin: 40px;
+    /* display: flex; */
+    font-size: 2em !important;
+  }
+  .attendee h1 {
+    font-size: 2.5em;
+    line-height: 40px;
+    margin: 0 8px;
+  }
+  .attendee p {
+    font-size: 1.3em !important;
+    /* line-height: 40px; */
+  }
+}
+@media (max-width: 470px) {
+  .attendee {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .attendee p {
+    font-size: 1.1em !important;
+    font-weight: lighter;
+  }
+  .shadow-bottom {
+    width: 100%;
+  }
+  .shadow-bottomA {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  .shadow-bottom {
+    display: none;
+  }
+}

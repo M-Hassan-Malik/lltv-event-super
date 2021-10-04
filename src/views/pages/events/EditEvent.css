@@ -1,0 +1,95 @@
+.content-event-edit{
+  margin-left: 20%;
+  margin-top: 6%;
+}
+.content-event-edit .wrapper-class {
+  padding-top: 1rem;
+  max-width: 70%;
+}
+/* .content-event-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+} */
+/* .content-event-edit .form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+} */
+.content-event-edit .my-form {
+  height: 80vh;
+  overflow-y: scroll;
+}
+.content-event-edit #btn-page {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1d8cf8;
+  color: white;
+}
+.content-event-edit #next-prev-btn {
+  float: right;
+  margin-right: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1d8cf8;
+  color: white;
+}
+.content-event-edit #btn-submit {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1d8cf8;
+  color: white;
+}
+.content-event-edit #thumbnail-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1d8cf8;
+  color: white;
+}
+.content-event-edit #btn-submit:disabled {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(111, 127, 145);
+  color: white;
+}
+.content-event-edit .rdw-editor-toolbar {
+  background-color: #1d8cf8;
+}
+.content-event-edit .editor-class {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #5d6a8a;
+}
+.content-event-edit .form-control {
+  background-color: transparent !important;
+  max-width: 70%;
+}
+.content-event-edit .toolbar-class {
+  border: 1px solid #ccc;
+}
+.content-event-edit .rdw-dropdownoption-default {
+  color: black;
+}
+.rc-time-picker-panel-select {
+  background-color: grey ;
+}
+.rc-time-picker-panel-select-option-selected {
+  color: #79b4b7 ;
+}

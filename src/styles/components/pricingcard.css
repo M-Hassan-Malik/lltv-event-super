@@ -1,0 +1,26 @@
+.pricing-card__content-title:before,
+.pricing-card__content-title:after {
+  background-color: #d0d0d0;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+div.centerText {
+  text-align: center;
+}
+.styledUL {
+  list-style: none;
+}
+
+.styledUL li::before {
+  content: "\2022";
+  color: #00af66;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+}

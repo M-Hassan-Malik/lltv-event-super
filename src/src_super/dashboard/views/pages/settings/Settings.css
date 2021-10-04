@@ -1,0 +1,19 @@
+.settings-main {
+  margin-left: 18%;
+  margin-top: 1%;
+  width: 40%;
+}
+.settings-main .form-group-label #radio {
+  display: flex;
+  flex-direction: column;
+  
+}
+.settings-main .form-group-label .table>:not(caption)>*>* {
+  padding: 0px !important;
+  background-color: transparent !important;
+  border-bottom-width: 0px !important;
+  box-shadow: none !important;
+}
+.settings-main .form-group-label .table input,.settings-main .form-group-label .table select{
+  border: 1px solid grey !important;
+}

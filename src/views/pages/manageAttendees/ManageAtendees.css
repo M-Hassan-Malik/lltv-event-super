@@ -1,0 +1,135 @@
+.manage-attendee-main {
+  margin-left: 18%;
+  margin-top: 1%;
+  padding: 0%;
+}
+.manage-attendee-main #row-2 {
+  margin-bottom: 2%;
+}
+.manage-attendee-main #row-2 #select-by {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border-width: 0px;
+  font-size: 1.023rem;
+  text-align: center;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.manage-attendee-main #row-2 #select-by:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.manage-attendee-main #row-2 #select-contains {
+  margin-left: 1.5%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border-width: 0px;
+  font-size: 1.023rem;
+  text-align: center;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.manage-attendee-main #row-2 #select-contains:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+.manage-attendee-main #row-2 #select-by:hover,
+.manage-attendee-main #row-2 #select-contains:hover {
+  cursor: pointer;
+}
+.manage-attendee-main #row-2 #select-by option,
+.manage-attendee-main #row-2 #select-contains option {
+  background-color: grey;
+}
+.manage-attendee-main #row-2 #search {
+  margin-left: 1.5%;
+  width: 40vw;
+  height: 40px;
+  border: 2px solid #1d8cf8;
+  padding: 10px;
+  border-radius: 5px;
+}
+.manage-attendee-main #row-2 #age-input {
+  margin-left: 1.5%;
+  height: 40px;
+  border: 2px solid #1d8cf8;
+  padding: 10px;
+  border-radius: 5px;
+}
+.manage-attendee-main .table-div {
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-left: 1.4%;
+  margin-top: 1%;
+  width: 90%;
+  text-align: center;
+}
+
+/* .manage-attendee-main #row-3 {
+  height: 45vh;
+  overflow: hidden;
+} */
+.manage-attendee-main #row-3 thead {
+  border-radius: 5px;
+}
+
+/* .manage-attendee-main #row-3:hover {
+  overflow: scroll;
+} */
+
+.manage-attendee-main ::-webkit-scrollbar {
+  width: 10px;
+}
+.manage-attendee-main ::-webkit-scrollbar-track {
+  display: none;
+}
+.manage-attendee-main ::-webkit-scrollbar-thumb {
+  background: #344675;
+  border-radius: 10px;
+}
+.manage-attendee-main ::-webkit-scrollbar-thumb:hover {
+  background: grey;
+  width: 20px;
+}
+
+.manage-attendee-main #btn-add {
+  position: relative;
+  z-index: 9999999999999;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.023rem;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.manage-attendee-main #btn-add:hover {
+  background-color: #4e555a;
+}
+
+.manage-attendee-main #btn-edit {
+  border: none;
+  font-size: 1.023rem;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border-color: #f8f9fa;
+  background-color: #f8f9fa;
+  color: black;
+}
+.manage-attendee-main #btn-edit:hover {
+  background-color: #d3dfed;
+}

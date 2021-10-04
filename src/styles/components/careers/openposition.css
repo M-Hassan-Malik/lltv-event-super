@@ -1,0 +1,74 @@
+.openContainer{
+    margin-top: 4rem;
+    padding-top: 20rem;
+    
+    text-align: center;
+}
+.position-haeding{
+    padding-top: 10rem;
+    font-size: 3.5rem;
+}
+.hr-line{
+    width: 60%;
+    margin-top: 10rem;
+}
+.text-div-container{
+    margin-top: 6rem;
+    text-align: center;
+}
+.heading-one-open{
+    text-align: center;
+}
+.heading-one-open :hover{
+    color: rgba(6, 153, 6, 0.842);
+    font-weight: 700;
+}
+.para-one-open{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.leftSide1-img{
+    height: 5%;
+    width: 5%;
+    padding-top: -10px;
+    border-radius: 50%;
+}
+.last-content-main{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.div-last-left{
+    width: 50%;
+    float: left;
+}
+.div-last-right{
+    width: 50%;
+    float: right;
+
+}
+.list_one{
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: 400;
+    padding: 1rem ;
+    font-style: normal;
+}
+.list_left{
+    padding: 2rem ;
+}
+.second-Last-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+}
+.scnd-last-left{
+    float: left;
+    width: 50%;
+}
+.scnd-last-right{
+    float: right;
+    width: 50%;
+}
