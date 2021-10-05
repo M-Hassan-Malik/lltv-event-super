@@ -53,6 +53,7 @@ const Signin = () => {
 							conferences
 						</p>
 						<input
+						style={{ color:'black' }}
 							name="email"
 							type="text"
 							placeholder="hello@example.com"
