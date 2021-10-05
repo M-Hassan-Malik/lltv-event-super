@@ -16,4 +16,9 @@
 }
 .settings-main .form-group-label .table input,.settings-main .form-group-label .table select{
   border: 1px solid grey !important;
+  color: black;
+  font-size:medium;
+}
+.settings-main .form-group-label .table input{
+padding: 4px !important;
 }
